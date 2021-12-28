@@ -7,7 +7,7 @@
     <title>PROJECT: Landmarks Classification &amp; Tagging | Sunil S. Singh</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Landmarks Classification &amp; Tagging using Convolutional Neural Network (CNN)">
-    <meta name="generator" content="Hugo 0.91.2" />
+    <meta name="generator" content="Hugo 0.80.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -30,15 +30,19 @@
     <meta property="og:title" content="PROJECT: Landmarks Classification &amp; Tagging" />
 <meta property="og:description" content="Landmarks Classification &amp; Tagging using Convolutional Neural Network (CNN)" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sssingh.github.io/DSPortfolio/post/landmark-classification-tagging/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="https://sssingh.github.io/DSPortfolio/post/landmark-classification-tagging/" />
 <meta property="article:published_time" content="2021-09-28T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-09-28T00:00:00+00:00" /><meta property="og:site_name" content="Sunil S. Singh" />
-
 <meta itemprop="name" content="PROJECT: Landmarks Classification &amp; Tagging">
-<meta itemprop="description" content="Landmarks Classification &amp; Tagging using Convolutional Neural Network (CNN)"><meta itemprop="datePublished" content="2021-09-28T00:00:00+00:00" />
+<meta itemprop="description" content="Landmarks Classification &amp; Tagging using Convolutional Neural Network (CNN)">
+<meta itemprop="datePublished" content="2021-09-28T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-09-28T00:00:00+00:00" />
 <meta itemprop="wordCount" content="479">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="PROJECT: Landmarks Classification &amp; Tagging"/>
 <meta name="twitter:description" content="Landmarks Classification &amp; Tagging using Convolutional Neural Network (CNN)"/>
 
@@ -198,7 +202,8 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><figure><img src="https://sssingh.github.io/DSPortfolio/images/landmark-tagging-thumbnail.jpg"/>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/landmark-tagging-thumbnail.jpg"/> 
 </figure>
 
 <p>Here we tackle a <code>multi-label-classification</code> problem. Photo sharing and photo storage services like to have location metadata for each photo that is uploaded. If no location metadata for an image is available, one way to infer the location is to detect and classify a discernible landmark in the image manually which is a very big ask if number of images are large. In this project we&rsquo;ll try to address this problem by building Neural Network (NN) based models to automatically predict the location of the image based on any landmarks depicted in the image.</p>
@@ -211,33 +216,39 @@
 <ul>
 <li>Dataset is obtained <a href="https://udacity-dlnfd.s3-us-west-1.amazonaws.com/datasets/landmark_images.zip">from here</a>. Note that this is a mini dataset just containing around 6,000 images with labels. This dataset is a subset of the <a href="https://github.com/cvdfoundation/google-landmark">Original Landmark Dataset</a> that contains over 700,000 images. Below are few sample images and their associated labels from the dataset&hellip;</li>
 </ul>
-<figure><img src="https://sssingh.github.io/DSPortfolio/images/landmark-dataset-samples.png"/>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/landmark-dataset-samples.png"/> 
 </figure>
 
 <ul>
 <li>Prediction <code>accuracy</code> is used as the model&rsquo;s performance metric on the test-set</li>
 <li>The CNN neural-network from Scratch is build using 5 <code>Convolutional</code> layers followed by a fully-connected layer finally producing a <code>LogSoftMax</code> output. Network is then trained and validated for 15 epochs using <code>Negative Log Likelyhood Loss</code> function and <code>Adam</code> optimizer with a learning rate of <code>0.001</code>. With this setup we could achive an accuracy of <code>38%</code></li>
 </ul>
-<figure><img src="https://sssingh.github.io/DSPortfolio/images/landmark-loss1.png"/>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/landmark-loss1.png"/> 
 </figure>
 
 <ul>
 <li>The CNN neural-network through transfer-learning is built using  <code>VGG19</code>  pre-trained model on <code>ImageNet</code>. The classifier layer is replaced with a custom fully-connected classifier finally producing a <code>LogSoftMax</code> output. All network weights are frozen except for custom classifier weights.
 Network is then trained and validated for 10 epochs using <code>Negative Log Likelyhood Loss</code> function and <code>Adam</code> optimizer with a learning rate of <code>0.001</code>. With this setup we could achive an accuracy of <code>63%</code></li>
 </ul>
-<figure><img src="https://sssingh.github.io/DSPortfolio/images/landmark-loss2.png"/>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/landmark-loss2.png"/> 
 </figure>
 
 <ul>
 <li>Below are few of the examples of final model&rsquo;s (CNN with transfer-learning) prediction&hellip;</li>
 </ul>
-<figure><img src="https://sssingh.github.io/DSPortfolio/images/landmark-final-prediction1.jpg"/>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/landmark-final-prediction1.jpg"/> 
 </figure>
 
-<figure><img src="https://sssingh.github.io/DSPortfolio/images/landmark-final-prediction2.jpg"/>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/landmark-final-prediction2.jpg"/> 
 </figure>
 
-<figure><img src="https://sssingh.github.io/DSPortfolio/images/landmark-final-prediction3.jpg"/>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/landmark-final-prediction3.jpg"/> 
 </figure>
 
 <p>Visit <a href="https://github.com/sssingh/landmark-classification-tagging">Project&rsquo;s Github Repo</a> for complete problem/solution discussion and Jupyter notebook.</p>

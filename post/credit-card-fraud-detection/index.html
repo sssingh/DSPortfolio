@@ -7,7 +7,7 @@
     <title>PROJECT: Credit Card Fraud Detection | Sunil S. Singh</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Credit card fraud detection using machine learning techniques.">
-    <meta name="generator" content="Hugo 0.91.2" />
+    <meta name="generator" content="Hugo 0.80.0" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -30,15 +30,19 @@
     <meta property="og:title" content="PROJECT: Credit Card Fraud Detection" />
 <meta property="og:description" content="Credit card fraud detection using machine learning techniques." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://sssingh.github.io/DSPortfolio/post/credit-card-fraud-detection/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="https://sssingh.github.io/DSPortfolio/post/credit-card-fraud-detection/" />
 <meta property="article:published_time" content="2020-08-01T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-08-01T00:00:00+00:00" /><meta property="og:site_name" content="Sunil S. Singh" />
-
 <meta itemprop="name" content="PROJECT: Credit Card Fraud Detection">
-<meta itemprop="description" content="Credit card fraud detection using machine learning techniques."><meta itemprop="datePublished" content="2020-08-01T00:00:00+00:00" />
+<meta itemprop="description" content="Credit card fraud detection using machine learning techniques.">
+<meta itemprop="datePublished" content="2020-08-01T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-08-01T00:00:00+00:00" />
 <meta itemprop="wordCount" content="298">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="PROJECT: Credit Card Fraud Detection"/>
 <meta name="twitter:description" content="Credit card fraud detection using machine learning techniques."/>
 
@@ -198,7 +202,8 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><figure><img src="https://sssingh.github.io/DSPortfolio/images/credit-card-fraud-thumbnail.jpg"/>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/credit-card-fraud-thumbnail.jpg"/> 
 </figure>
 
 <p>In this project we tackle a classic <code>binary-classification</code> problem. Our ultimate goal is to build and train machine-learning models to detect fraudulent credit card transaction.</p>
@@ -215,7 +220,8 @@ losses reached up to USD 27.8 billion in 2019 and expect to go up to USD 35.67 b
 <ul>
 <li>Dataset is highly imbalanced. We experiment with <code>RANDOM</code>, <code>SMOTE</code> &amp; <code>ADASYSN</code> oversampling techniques to balance the dataset before modelling.</li>
 </ul>
-<figure><img src="https://sssingh.github.io/DSPortfolio/images/credit-card-fraud-class-imbalance.png"/>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/credit-card-fraud-class-imbalance.png"/> 
 </figure>
 
 <ul>
@@ -224,7 +230,8 @@ losses reached up to USD 27.8 billion in 2019 and expect to go up to USD 35.67 b
 <li>We also monitor the <code>precision</code> and <code>recall</code> for each of the models we build</li>
 </ul>
 <p>It turns out that <code>XGBoost</code> with <code>RANDOM</code> oversampling is the best model for the dataset we have with an <code>AUC</code> of <code>99.94%</code></p>
-<figure><img src="https://sssingh.github.io/DSPortfolio/images/credit-card-fraud-final-model-metric.png"/>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/credit-card-fraud-final-model-metric.png"/> 
 </figure>
 
 <p>Visit <a href="https://github.com/sssingh/credit-card-fraud-detection/">Project&rsquo;s Github Repo</a> for complete problem/solution discussion and Jupyter notebook.</p>
