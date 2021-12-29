@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Science Portfolio on Sunil S. Singh</title>
+    <title>Sunil S. Singh</title>
     <link>https://sssingh.github.io/DSPortfolio/</link>
-    <description>Recent content in Data Science Portfolio on Sunil S. Singh</description>
+    <description>Recent content on Sunil S. Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sssingh.github.io/DSPortfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sssingh.github.io/DSPortfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PROJECT: Landmarks Classification &amp; Tagging</title>
       <link>https://sssingh.github.io/DSPortfolio/post/landmark-classification-tagging/</link>
-      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://sssingh.github.io/DSPortfolio/post/landmark-classification-tagging/</guid>
       <description>Here we tackle a multi-label-classification problem. Photo sharing and photo storage services like to have location metadata for each photo that is uploaded. If no location metadata for an image is available, one way to infer the location is to detect and classify a discernible landmark in the image manually which is a very big ask if number of images are large. In this project we&amp;rsquo;ll try to address this problem by building Neural Network (NN) based models to automatically predict the location of the image based on any landmarks depicted in the image.</description>
+    </item>
+    
+    <item>
+      <title>PROJECT: Hand Written Digit Classification</title>
+      <link>https://sssingh.github.io/DSPortfolio/post/hand-written-digit-classification/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sssingh.github.io/DSPortfolio/post/hand-written-digit-classification/</guid>
+      <description>In this project we are dealing with multi-label-classification problem. The MNIST dataset is widely used in academia and industry for training and testing machine-learning model. MNIST dataset classification is possibly one of the very first task an aspiring ML/DL learner encounters. I tend to think this as the &amp;ldquo;Hello World&amp;rdquo; for classification tasks where one can experiments with various ML and DL models.
+Our objective here is to build a neural-network classifier to discriminate between digits 0 to 9 in MNIST dataset.</description>
     </item>
     
     <item>
