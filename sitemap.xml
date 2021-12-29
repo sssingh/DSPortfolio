@@ -24,6 +24,13 @@
   </url>
   
   <url>
+    <loc>https://sssingh.github.io/DSPortfolio/post/fashion-mnist-classification/</loc>
+    <lastmod>2021-10-02T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://sssingh.github.io/DSPortfolio/post/hand-written-digit-classification/</loc>
     <lastmod>2021-09-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>

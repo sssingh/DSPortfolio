@@ -17,12 +17,21 @@
     </item>
     
     <item>
+      <title>PROJECT: Fashion-MNIST Classification</title>
+      <link>https://sssingh.github.io/DSPortfolio/post/fashion-mnist-classification/</link>
+      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sssingh.github.io/DSPortfolio/post/fashion-mnist-classification/</guid>
+      <description>This is again a multi-label-classification task. This project is very similar to MNIST Digit Classification project. In this project instead of hand-written-digits we try to classify images of apparel (cloths, shoes, bags etc) into distinct 10 classes. The main difference here is that the Fashion-MNIST dataset is more complex than MNIST dataset and getting an accuracy near 95% or above is very challenging by just using fully-connected neural-network layers (i.</description>
+    </item>
+    
+    <item>
       <title>PROJECT: Hand Written Digit Classification</title>
       <link>https://sssingh.github.io/DSPortfolio/post/hand-written-digit-classification/</link>
       <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://sssingh.github.io/DSPortfolio/post/hand-written-digit-classification/</guid>
-      <description>In this project we are dealing with multi-label-classification problem. The MNIST dataset is widely used in academia and industry for training and testing machine-learning model. MNIST dataset classification is possibly one of the very first task an aspiring ML/DL learner encounters. I tend to think this as the &amp;ldquo;Hello World&amp;rdquo; for classification tasks where one can experiments with various ML and DL models.
+      <description>In this project we are dealing with a multi-label-classification problem. The MNIST dataset is widely used in academia and industry for training and testing machine-learning model. MNIST dataset classification is possibly one of the very first task an aspiring ML/DL learner encounters. I tend to think this as the &amp;ldquo;Hello World&amp;rdquo; for classification tasks where one can experiments with various ML and DL models.
 Our objective here is to build a neural-network classifier to discriminate between digits 0 to 9 in MNIST dataset.</description>
     </item>
     
