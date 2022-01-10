@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Sunil S. Singh</title>
+    <link>https://sssingh.github.io/DSPortfolio/project/</link>
+    <description>Recent content in Projects on Sunil S. Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sssingh.github.io/DSPortfolio/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Landmarks Classification &amp; Tagging</title>
+      <link>https://sssingh.github.io/DSPortfolio/project/landmark-classification-tagging/</link>
+      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sssingh.github.io/DSPortfolio/project/landmark-classification-tagging/</guid>
+      <description>&lt;p&gt;⚡&lt;strong&gt;Multi Label Image Classification&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Cutsom CNN&lt;/strong&gt; &lt;br&gt;
+⚡&lt;strong&gt;Transfer Learning CNN&lt;/strong&gt; &lt;br&gt;
+⚡&lt;strong&gt;PyTorch&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here we tackle a &lt;code&gt;multi-label-classification&lt;/code&gt; problem. Photo sharing and photo storage services like to have location metadata for each uploaded photo. However, suppose no location metadata for an image is available. In that case, one way to infer the location is to detect and classify a discernible landmark in the shot manually, which is very tough if the number of images is significant. In this project, we&amp;rsquo;ll try to address this problem by building a `Neural Network (NN) based model to automatically predict the location of the image based on any landmarks depicted in the picture.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fashion-MNIST Classification</title>
+      <link>https://sssingh.github.io/DSPortfolio/project/fashion-mnist-classification/</link>
+      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sssingh.github.io/DSPortfolio/project/fashion-mnist-classification/</guid>
+      <description>&lt;p&gt;⚡&lt;strong&gt;Multi Label Image Classification&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Cutsom Fully Connected NN&lt;/strong&gt;  &lt;br&gt;
+⚡&lt;strong&gt;Fashion MNIST&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;PyTorch&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Fashion-MNIST Classification is again a &lt;code&gt;multi-label classification&lt;/code&gt; task. This project is very similar to the &lt;a href=&#34;https://sssingh.github.io/DSPortfolio/post/hand-written-digit-classification/&#34;&gt;MNIST Digit Classification&lt;/a&gt; project. However, instead of hand-written digits, we classify apparel images (clothes, shoes, bags, etc.) into ten distinct classes. The main difference is that the Fashion-MNIST dataset is more complex than the MNIST dataset. Therefore, getting an accuracy near 95% or above by using fully-connected neural-network layers (i.e. without using the &lt;code&gt;Convolution&lt;/code&gt; layer) would be challenging.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hand Written Digit Classification</title>
+      <link>https://sssingh.github.io/DSPortfolio/project/hand-written-digit-classification/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sssingh.github.io/DSPortfolio/project/hand-written-digit-classification/</guid>
+      <description>&lt;p&gt;⚡&lt;strong&gt;Multi Label Image Classification&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Cutsom Fully Connected NN&lt;/strong&gt; &lt;br&gt;
+⚡&lt;strong&gt;MNIST&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;PyTorch&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this project, we deal with a &lt;code&gt;multi-label classification&lt;/code&gt; problem.  The MNIST dataset is widely used in academia and industry for training and testing machine-learning models. Therefore, MNIST dataset classification is possibly one of the very first tasks an aspiring ML/DL learner encounters. I think of this as the &amp;ldquo;Hello World&amp;rdquo; for classification tasks to experiment with various ML and DL models.&lt;/p&gt;
+&lt;p&gt;Our objective is to build a neural-network classifier to discriminate between digits 0 to 9 in the MNIST dataset.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>BikeShare Riders Prediction</title>
+      <link>https://sssingh.github.io/DSPortfolio/project/bike-share-users-prediction/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sssingh.github.io/DSPortfolio/project/bike-share-users-prediction/</guid>
+      <description>&lt;p&gt;⚡&lt;strong&gt;Regression&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;NN Implementation From Scratch&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Gradient Descent From Scratch&lt;/strong&gt;  &lt;br&gt;
+⚡&lt;strong&gt;NumPy&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here we tackle a &lt;code&gt;Regression&lt;/code&gt; problem. This project will build a simple multi-layer-perceptron (MLP) or a Deep Neural Network (DNN) model to predict the number of riders BikeShare would get on a given day. MLP/NN will be built from scratch using the &lt;code&gt;NumPy&lt;/code&gt; package. We will not use sophisticated deep-learning libraries such as PyTorch or Tensorflow to develop and train the network. The main aim here is to build each network component from the ground up to understand the inner workings of a typical deep neural network.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Face Mask Detection</title>
+      <link>https://sssingh.github.io/DSPortfolio/project/face-mask-detection/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sssingh.github.io/DSPortfolio/project/face-mask-detection/</guid>
+      <description>&lt;p&gt;⚡&lt;strong&gt;Binary Classification&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Cutsom CNN&lt;/strong&gt; &lt;br&gt;
+⚡&lt;strong&gt;Transfer Learning CNN&lt;/strong&gt; &lt;br&gt;
+⚡&lt;strong&gt;SVM Classifier&lt;/strong&gt; &lt;br&gt;
+⚡&lt;strong&gt;Fully Connected Classifier&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Tensorflow/Keras&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The project aims to design, implement, and compare many machine learning models utilizing modern ML and DL techniques to discriminate between the images of human faces wearing or not wearing facemasks. The problem at hand here is a &lt;code&gt;binary-classification&lt;/code&gt; task.&lt;/p&gt;
+&lt;p&gt;Face masks have proven to be very effective against COVID-19 spread. Even though facemasks are a very effective prevention measure, society has apparent resistance. However, given the seriousness of the COVID-19 spread, authorities have started monitoring and enforcing the usage of facemasks in public places. But it&amp;rsquo;s almost impossible to do this manually. This project aims to implement, test, and compare multiple ML/DL models for automatic facemask detection.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Credit Card Fraud Detection</title>
+      <link>https://sssingh.github.io/DSPortfolio/project/credit-card-fraud-detection/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sssingh.github.io/DSPortfolio/project/credit-card-fraud-detection/</guid>
+      <description>&lt;p&gt;⚡&lt;strong&gt;Binary Classification&lt;/strong&gt; &lt;br&gt;
+⚡&lt;strong&gt;Dataset Balancing (RANDOM/SMOTE/ADASYN)&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;LogisticRegression&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;DecisionTree&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;LinearSVC&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;RandomForest&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;XGBoost&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Scikit-Learn&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this project, we tackle a classic &lt;code&gt;binary-classification&lt;/code&gt; problem. Our ultimate goal is to build and train machine-learning models to detect fraudulent credit card transactions.&lt;/p&gt;
+&lt;p&gt;Credit card fraud is a form of identity fraud/theft. It happens when unauthorized transactions are made using a credit card without the card holder&amp;rsquo;s explicit permission.
+Malicious elements can conduct card fraud in various ways&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
