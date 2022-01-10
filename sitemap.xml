@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://sssingh.github.io/DSPortfolio/project/landmark-classification-tagging/</loc>
+    <lastmod>2021-10-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://sssingh.github.io/DSPortfolio/</loc>
     <lastmod>2021-10-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -10,49 +17,42 @@
   </url>
   
   <url>
-    <loc>https://sssingh.github.io/DSPortfolio/post/landmark-classification-tagging/</loc>
+    <loc>https://sssingh.github.io/DSPortfolio/project/</loc>
     <lastmod>2021-10-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sssingh.github.io/DSPortfolio/post/</loc>
-    <lastmod>2021-10-22T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://sssingh.github.io/DSPortfolio/post/fashion-mnist-classification/</loc>
+    <loc>https://sssingh.github.io/DSPortfolio/project/fashion-mnist-classification/</loc>
     <lastmod>2021-10-02T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sssingh.github.io/DSPortfolio/post/hand-written-digit-classification/</loc>
+    <loc>https://sssingh.github.io/DSPortfolio/project/hand-written-digit-classification/</loc>
     <lastmod>2021-09-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sssingh.github.io/DSPortfolio/post/bike-share-users-prediction/</loc>
+    <loc>https://sssingh.github.io/DSPortfolio/project/bike-share-users-prediction/</loc>
     <lastmod>2021-08-22T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sssingh.github.io/DSPortfolio/post/face-mask-detection/</loc>
+    <loc>https://sssingh.github.io/DSPortfolio/project/face-mask-detection/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://sssingh.github.io/DSPortfolio/post/credit-card-fraud-detection/</loc>
+    <loc>https://sssingh.github.io/DSPortfolio/project/credit-card-fraud-detection/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -60,6 +60,12 @@
   
   <url>
     <loc>https://sssingh.github.io/DSPortfolio/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://sssingh.github.io/DSPortfolio/blog-post/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
