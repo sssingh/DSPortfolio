@@ -6,7 +6,26 @@
     <description>Recent content in Projects on Sunil S. Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sssingh.github.io/DSPortfolio/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sssingh.github.io/DSPortfolio/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TV Script Generation using RNN</title>
+      <link>https://sssingh.github.io/DSPortfolio/project/tv-script-generation-rnn/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sssingh.github.io/DSPortfolio/project/tv-script-generation-rnn/</guid>
+      <description>&lt;p&gt;⚡&lt;strong&gt;Text Generation&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Recurrent Neural Network (RNN)&lt;/strong&gt; &lt;br&gt;
+⚡&lt;strong&gt;Gated Recurrent Unit (GRU)&lt;/strong&gt; &lt;br&gt;
+⚡&lt;strong&gt;PyTorch&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Text Generation is a subfield of Natural Language Processing (NLP). In this project, we train a neural network to learn the underlying structure and pattern in a given text corpus (tv script in our case) and then generate a never seen before (but fake) tv script. There are many real-life applications of text generating models, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Product reports describing the features of a new product&lt;/li&gt;
+&lt;li&gt;Financial reports&lt;/li&gt;
+&lt;li&gt;Personalized emails.&lt;/li&gt;
+&lt;li&gt;Quickly generating unique marketing content targeting a unique customer.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
     <item>
       <title>Landmarks Classification &amp; Tagging</title>
       <link>https://sssingh.github.io/DSPortfolio/project/landmark-classification-tagging/</link>
