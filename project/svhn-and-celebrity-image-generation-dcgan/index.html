@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Data Science Portfolio | Sunil S. Singh</title>
+    <title>SVHN and Celebrity Face Generation using DC-GAN | Sunil S. Singh</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="&#34;In God we trust. All others must bring data.&#34; – W. Edwards Deming">
+    <meta name="description" content="Train a Deep Convolution Generative Adversarial Network (DC-GAN) to generate SVHN and Celebrity face images.">
     <meta name="generator" content="Hugo 0.80.0" />
     
     
@@ -28,21 +28,24 @@
 
     
     
-      <link href="https://sssingh.github.io/DSPortfolio/index.xml" rel="alternate" type="application/rss+xml" title="Sunil S. Singh" />
-      <link href="https://sssingh.github.io/DSPortfolio/index.xml" rel="feed" type="application/rss+xml" title="Sunil S. Singh" />
-      
-    
-    
-    <meta property="og:title" content="Data Science Portfolio" />
-<meta property="og:description" content="&#34;In God we trust. All others must bring data.&#34; – W. Edwards Deming" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://sssingh.github.io/DSPortfolio/" />
-<meta property="og:updated_time" content="2021-12-12T00:00:00+00:00" /><meta property="og:site_name" content="Sunil S. Singh" />
-<meta itemprop="name" content="Data Science Portfolio">
-<meta itemprop="description" content="&#34;In God we trust. All others must bring data.&#34; – W. Edwards Deming">
+    <meta property="og:title" content="SVHN and Celebrity Face Generation using DC-GAN" />
+<meta property="og:description" content="Train a Deep Convolution Generative Adversarial Network (DC-GAN) to generate SVHN and Celebrity face images." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://sssingh.github.io/DSPortfolio/project/svhn-and-celebrity-image-generation-dcgan/" />
+<meta property="article:published_time" content="2021-12-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-12-12T00:00:00+00:00" /><meta property="og:site_name" content="Sunil S. Singh" />
+<meta itemprop="name" content="SVHN and Celebrity Face Generation using DC-GAN">
+<meta itemprop="description" content="Train a Deep Convolution Generative Adversarial Network (DC-GAN) to generate SVHN and Celebrity face images.">
+<meta itemprop="datePublished" content="2021-12-12T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-12-12T00:00:00+00:00" />
+<meta itemprop="wordCount" content="839">
+
+
+
+<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Data Science Portfolio"/>
-<meta name="twitter:description" content="&#34;In God we trust. All others must bring data.&#34; – W. Edwards Deming"/>
+<meta name="twitter:title" content="SVHN and Celebrity Face Generation using DC-GAN"/>
+<meta name="twitter:description" content="Train a Deep Convolution Generative Adversarial Network (DC-GAN) to generate SVHN and Celebrity face images."/>
 
 	
   </head>
@@ -50,11 +53,13 @@
   <body class="ma0 avenir bg-near-white">
 
     
+   
+  
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://sssingh.github.io/DSPortfolio/images/home_pic.jpg');">
-    <div class="bg-black-60">
+  <header class="cover bg-top" style="background-image: url('https://sssingh.github.io/DSPortfolio/images/svhn-faces-dcgan-title.png');">
+    <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
     <a href="https://sssingh.github.io/DSPortfolio/" class="f3 fw2 hover-white no-underline white-90 dib">
@@ -136,71 +141,75 @@
   </div>
 </nav>
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Data Science Portfolio
-        </h1>
+      <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-            &#34;In God we trust. All others must bring data.&#34; – W. Edwards Deming
-          </h2>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">SVHN and Celebrity Face Generation using DC-GAN</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Train a Deep Convolution Generative Adversarial Network (DC-GAN) to generate SVHN and Celebrity face images.
+            </h2>
+          
         
       </div>
     </div>
   </header>
 
 
+
     <main class="pb7" role="main">
       
- <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    <p>Hello, and a warm welcome to my data science portfolio pages. I am <em>Sunil</em> and I invite you to explore the <a href="https://sssingh.github.io/DSPortfolio/project/">Projects</a> page. You may enjoy some of my recent interesting blog-posts, have a look at <a href="https://sssingh.github.io/DSPortfolio/blog-post">Articles</a> page. You can learn more about me on <a href="https://sssingh.github.io/DSPortfolio/about/">About</a> page. For any questions, comments, feedback, suggestion, or collaboration, please feel free to get in touch via <a href="https://sssingh.github.io/DSPortfolio/contact/">Contact</a> page.</p>
-
-  </article>
   
-  
-  
-  
-  
-  
-  
-    
-    
-
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
-      
-       
-          <h1 class="flex-none">
-            Recent Projects
-          </h1>
-        
-
-      
-
-      <section class="w-100 mw8">
-        
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
           
-        
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://sssingh.github.io/DSPortfolio/project/svhn-and-celebrity-image-generation-dcgan/" class="db grow">
-            <img src="https://sssingh.github.io/DSPortfolio/images/svhn-faces-dcgan-title.png" class="img" alt="image from SVHN and Celebrity Face Generation using DC-GAN">
-          </a>
-        </div>
+        PROJECTS
+      </aside>
       
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://sssingh.github.io/DSPortfolio/project/svhn-and-celebrity-image-generation-dcgan/" class="color-inherit dim link">
-            SVHN and Celebrity Face Generation using DC-GAN
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>⚡<strong>Image Generation</strong><br>
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+      
+      <a href="https://twitter.com/share?url=https://sssingh.github.io/DSPortfolio/project/svhn-and-celebrity-image-generation-dcgan/&amp;text=SVHN%20and%20Celebrity%20Face%20Generation%20using%20DC-GAN" class="ananke-social-link twitter no-underline" aria-label="share on Twitter">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:{{ .fill }};"/></svg>
+</span>
+        
+      </a>
+    
+      
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://sssingh.github.io/DSPortfolio/project/svhn-and-celebrity-image-generation-dcgan/&amp;title=SVHN%20and%20Celebrity%20Face%20Generation%20using%20DC-GAN" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:{{ .fill }};"/>
+</svg>
+</span>
+        
+      </a>
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">SVHN and Celebrity Face Generation using DC-GAN</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-12-12T00:00:00Z">December 12, 2021</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>⚡<strong>Image Generation</strong><br>
 ⚡<strong>Deep Convolutional GAN (DC-GAN)</strong> <br>
 ⚡<strong>Convolution and Transpose Convolution Layers</strong><br>
 ⚡<strong>SVHN &amp; CelebA</strong><br>
@@ -215,174 +224,147 @@
 </li>
 </ul>
 <p>Our goal in this project is to build two DC-GAN networks. The first network will train over the Street View House Numbers (SVHN) dataset so that the network learns to generate synthetic SVHN images. The second network will train over the CelebA dataset to learn to generate imaginary celebrity faces.</p>
-        </div>
-          <a href="https://sssingh.github.io/DSPortfolio/project/svhn-and-celebrity-image-generation-dcgan/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
+<p>Just like GANs, the DC-GAN is built by defining two networks. A <code>Discriminator</code> is a typical binary classifier and a <code>Generator</code> network that consumes a <code>noise</code> vector (z of length 100) and up-samples it by passing it through various network layers. A Typical DC-GAN setup is shown below…</p>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/dcgan-high-level.png"/> 
+</figure>
 
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://sssingh.github.io/DSPortfolio/project/mnist-digit-generation-gan/" class="db grow">
-            <img src="https://sssingh.github.io/DSPortfolio/images/mnist-gan-title.png" class="img" alt="image from MNIST Digit Generation using GAN">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://sssingh.github.io/DSPortfolio/project/mnist-digit-generation-gan/" class="color-inherit dim link">
-            MNIST Digit Generation using GAN
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>⚡<strong>Image Generation</strong><br>
-⚡<strong>Generative Adverserial Network (GAN)</strong> <br>
-⚡<strong>Fully Connected Neural Layers</strong><br>
-⚡<strong>MNIST</strong><br>
-⚡<strong>PyTorch</strong></p>
-<p>GAN is a neural-network architecture used for <code>Generative Modeling.</code> The Generative Models are used to generate new &lsquo;made-up/fake&rsquo; examples that&rsquo;d appear to have come from the authentic distribution of samples. GANs are trained using two separate networks, a Generator, and a Discriminator, competing like adversaries. The Discriminator&rsquo;s job is to detect the actual image from the dataset vs. the fake image generated by the trained Generator.</p>
-<p>Have a look at <a href="https://www.researchgate.net/publication/263012109_Generative_Adversarial_Networks">GAN Original Paper</a> for more details.</p>
-<p>Our goal in this project is to build a GAN and train it over the MNIST dataset so that the network learns to generate <em>fake</em> MNIST digit images that would appear to have come from the real MNIST dataset. Still, in reality, these images are not part of the MNIST dataset.</p>
-        </div>
-          <a href="https://sssingh.github.io/DSPortfolio/project/mnist-digit-generation-gan/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
+<p>SVHN DC-GAN and <code>Discriminator</code> and <code>Generator</code> networks schematic are shown below&hellip;</p>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/svhn-dcgan.png"/> 
+</figure>
 
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://sssingh.github.io/DSPortfolio/project/tv-script-generation-rnn/" class="db grow">
-            <img src="https://sssingh.github.io/DSPortfolio/images/tv-script-title.jpg" class="img" alt="image from TV Script Generation using RNN">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://sssingh.github.io/DSPortfolio/project/tv-script-generation-rnn/" class="color-inherit dim link">
-            TV Script Generation using RNN
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>⚡<strong>Text Generation</strong><br>
-⚡<strong>Recurrent Neural Network (RNN)</strong> <br>
-⚡<strong>Gated Recurrent Unit (GRU)</strong> <br>
-⚡<strong>PyTorch</strong></p>
-<p>Text Generation is a subfield of Natural Language Processing (NLP). In this project, we train a neural network to learn the underlying structure and pattern in a given text corpus (tv script in our case) and then generate a never seen before (but fake) tv script. There are many real-life applications of text generating models, such as:</p>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/svhn_discriminator.png"/> 
+</figure>
+
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/svhn_generator.png"/> 
+</figure>
+
+<p>The composition of celebrity faces <code>Discriminator</code> and <code>Generator</code> networks is shown below&hellip;</p>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/celeb_generator.png"/> 
+</figure>
+
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/celeb_discriminator.png"/> 
+</figure>
+
 <ul>
-<li>Product reports describing the features of a new product</li>
-<li>Financial reports</li>
-<li>Personalized emails.</li>
-<li>Quickly generating unique marketing content targeting a unique customer.</li>
+<li>
+<p>The Discriminator network is a binary-classifier for classifying the input image as real (1) or fake (0). The network is composed to consume a batch of images (real or fake) and pass them through a series of <code>Convolution</code> (Conv2D) layers and one fully-connected layer.
+<code>LeakyReLU</code> is used as the activation function. Finally, the network&rsquo;s last layer is a fully-connected <code>Linear</code> layer producing a single logit which will then be passed through a sigmoid function to generate prediction probability.</p>
+</li>
+<li>
+<p>The Generator network is defined to consume a random latent-noise vector (z of length 100) and up-samples the noise vector by passing it through a fully-connected Linear layer and then through a series of <code>Transpose Convolution</code> (ConvTranspose2D) layers. ConvTranspose2D layers work like Conv2D layers but in reverse. A <code>ReLU</code> activation is used. The last ConvTranspose2D layer output is then passed through the <code>tanh</code> function to produce the final output of the Generator between -1 and 1.</p>
+</li>
+<li>
+<p>Note that, unlike other supervised learning tasks, we can&rsquo;t measure the performance of our GANs using a metric like <code>accuracy.</code> Performance measurement, in this case, would be <code>Qualitative</code> (human evaluation) rather than <code>Quantitative.</code></p>
+</li>
+<li>
+<p><code>Loss Function</code>: DC-GAN training is slightly different from our regular supervised neural-network training. In the case of DC-GAN, two separate networks are being trained together, and networks have different and opposing goals (i.e., they are competing). The Discriminator is trying to identify if the image sample is genuine or its fake images generated by our Generator. Note that here we are NOT interested in classifying the SVHN digits or Celebrity faces themselves. Instead, two-loss functions are defined…</p>
+<ol>
+<li><em>real_loss</em>: calculates loss when images are drawn from the actual dataset. The predicted output is compared against the target label 1, indicating authentic images.</li>
+<li><em>fake_loss</em>: calculates loss when the Generator generates images. The predicted output is compared against the target label 0, indicating fake images.</li>
+</ol>
+</li>
+<li>
+<p>Since we are training two separate networks, we need two separate optimizers for each network. In both cases, we use the <code>Adam</code> optimizer with a learning rate of 0.002.</p>
+</li>
+<li>
+<p>Since classification is between two classes (real and fake) and our Discriminator outputs a logit, we use BCEWithLogitsLoss as the loss function.</p>
+</li>
+<li>
+<p>During training, the Generator consumes a batch noise data (z) drawn from a normal distribution between range -1 and 1 and generates a batch of fake images</p>
+</li>
 </ul>
-        </div>
-          <a href="https://sssingh.github.io/DSPortfolio/project/tv-script-generation-rnn/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/dcgan_latent_vector.png"/> 
+</figure>
 
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="https://sssingh.github.io/DSPortfolio/project/landmark-classification-tagging/" class="db grow">
-            <img src="https://sssingh.github.io/DSPortfolio/images/landmark-title.jpg" class="img" alt="image from Landmarks Classification &amp; Tagging">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="https://sssingh.github.io/DSPortfolio/project/landmark-classification-tagging/" class="color-inherit dim link">
-            Landmarks Classification &amp; Tagging
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>⚡<strong>Multi Label Image Classification</strong><br>
-⚡<strong>Cutsom CNN</strong> <br>
-⚡<strong>Transfer Learning CNN</strong> <br>
-⚡<strong>PyTorch</strong></p>
-<p>Here we tackle a <code>multi-label-classification</code> problem. Photo sharing and photo storage services like to have location metadata for each uploaded photo. However, suppose no location metadata for an image is available. In that case, one way to infer the location is to detect and classify a discernible landmark in the shot manually, which is very tough if the number of images is significant. In this project, we&rsquo;ll try to address this problem by building a `Neural Network (NN) based model to automatically predict the location of the image based on any landmarks depicted in the picture.</p>
-        </div>
-          <a href="https://sssingh.github.io/DSPortfolio/project/landmark-classification-tagging/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
+<ul>
+<li>
+<p>The Discriminator trains by consuming the actual SVHN  and Celebrity face images from SVHN and CelebA datasets, respectively, and fake generated images from the Generator and classifying real Vs. fake images</p>
+</li>
+<li>
+<p>Discriminator and Generator compute their respective losses and improve for every subsequent epoch via backpropagation.</p>
+</li>
+<li>
+<p>The main aim of the GAN training is to attain equilibrium between the competing networks. Equilibrium is the fundamental idea behind GANs, drawn from The Game Theory, which suggests that competing rational agents will ultimately reach an equilibrium where they can&rsquo;t improve anymore. This is the optimal solution.</p>
+</li>
+<li>
+<p>Both DC-GAN networks are trained for 25 epochs. We plot both Generator and Discriminator losses for both networks, and it looks like this…</p>
+<p>SVHN Losses&hellip;
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/svhn-dcgan-losses.png"/> 
+</figure>
+</p>
+<p>CelebA Losses&hellip;
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/celeba_losses.png"/> 
+</figure>
+</p>
+</li>
+</ul>
+<p>The above plots do not look like a typical neural-network training loss plot.
+There are huge fluctuations. This behavior is peculiar to GAN training and expected.
+More extended training might yield a convergence (equilibrium).</p>
+<p><strong>Final outputs&hellip;</strong></p>
+<ul>
+<li>Shown below are the generated SVHN images after 25 epochs of training&hellip;</li>
+</ul>
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/svhn_results.png"/> 
+</figure>
 
-          </div>
-        
-      </section>
-
-      
-      <section class="w-100">
-        <h1 class="f3">More</h1>
-        
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://sssingh.github.io/DSPortfolio/project/fashion-mnist-classification/" class="link black dim">
-              Fashion-MNIST Classification
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://sssingh.github.io/DSPortfolio/project/hand-written-digit-classification/" class="link black dim">
-              Hand Written Digit Classification
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://sssingh.github.io/DSPortfolio/project/bike-share-users-prediction/" class="link black dim">
-              BikeShare Riders Prediction
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="https://sssingh.github.io/DSPortfolio/project/face-mask-detection/" class="link black dim">
-              Face Mask Detection
-            </a>
-          </h2>
-        
-
-        
-        
-          <a href="https://sssingh.github.io/DSPortfolio/project/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Projects</a>
-        
-        </section>
-      
-
-      </div>
+<ul>
+<li>
+<p>Shown below are the Celebrity faces image-generation progress, depicting how Generator is gradually learning and improving the quality of generated images…</p>
+<p>After 1 epoch&hellip;
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/celeba_gen_images_1.png"/> 
+</figure>
+</p>
+<p>After 5 epoch&hellip;
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/celeba_gen_images_5.png"/> 
+</figure>
+</p>
+<p>After 10 epochs&hellip;
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/celeba_gen_images_10.png"/> 
+</figure>
+</p>
+<p>After 20 epochs&hellip;
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/celeba_gen_images_20.png"/> 
+</figure>
+</p>
+<p>After 25 epochs&hellip;
+<figure>
+    <img src="https://sssingh.github.io/DSPortfolio/images/celeba_gen_images_25.png"/> 
+</figure>
+</p>
+</li>
+</ul>
+<p>Visit <a href="https://github.com/sssingh/svhn-and-celebrity-image-generation-dcgan">Project&rsquo;s Github Repo</a> for complete problem/solution discussion and Jupyter notebook.</p><ul class="pa0">
   
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">

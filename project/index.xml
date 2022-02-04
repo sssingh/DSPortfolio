@@ -6,7 +6,30 @@
     <description>Recent content in Projects on Sunil S. Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sssingh.github.io/DSPortfolio/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sssingh.github.io/DSPortfolio/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SVHN and Celebrity Face Generation using DC-GAN</title>
+      <link>https://sssingh.github.io/DSPortfolio/project/svhn-and-celebrity-image-generation-dcgan/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://sssingh.github.io/DSPortfolio/project/svhn-and-celebrity-image-generation-dcgan/</guid>
+      <description>&lt;p&gt;⚡&lt;strong&gt;Image Generation&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Deep Convolutional GAN (DC-GAN)&lt;/strong&gt; &lt;br&gt;
+⚡&lt;strong&gt;Convolution and Transpose Convolution Layers&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;SVHN &amp;amp; CelebA&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;PyTorch&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;DC-GAN is an extension and builds on the same idea as GAN networks. Like GAN, DC-GAN is also composed of two competing networks, the Discriminator that classifies images as real or fake and the Generator that learns from the actual dataset (MNIST, SVHN, CelebA, etc.) and generates the counterfeit images. However, in the case of DC-GAN, instead of simple fully-connected Linear layers, Convolution and Transpose Convolution layers are used for network composition.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Refer &lt;a href=&#34;http://localhost:1313/DSPortfolio/project/mnist-digit-generation-gan/&#34;&gt;MNIST Digit Generation Using GAN project&lt;/a&gt; for a detailed discussion on GAN network.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Have a look at &lt;a href=&#34;https://arxiv.org/pdf/1511.06434.pdf&#34;&gt;DC-GAN Original Paper&lt;/a&gt; for in depth discussion on the subject.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Our goal in this project is to build two DC-GAN networks. The first network will train over the Street View House Numbers (SVHN) dataset so that the network learns to generate synthetic SVHN images. The second network will train over the CelebA dataset to learn to generate imaginary celebrity faces.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>MNIST Digit Generation using GAN</title>
       <link>https://sssingh.github.io/DSPortfolio/project/mnist-digit-generation-gan/</link>
