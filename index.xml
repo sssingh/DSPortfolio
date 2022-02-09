@@ -6,7 +6,30 @@
     <description>Recent content in Data Science Portfolio on Sunil S. Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://sssingh.github.io/DSPortfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sssingh.github.io/DSPortfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tweet Sentiment Detection</title>
+      <link>https://sssingh.github.io/DSPortfolio/project/tweet-sentiment-detection/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://sssingh.github.io/DSPortfolio/project/tweet-sentiment-detection/</guid>
+      <description>&lt;p&gt;⚡&lt;strong&gt;Binary Classification&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Natural Language Processing (NLP)&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Logistic Regression&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;Naive Bayes Classifier&lt;/strong&gt;&lt;br&gt;
+⚡&lt;strong&gt;NLTK&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Our goal here is to detect the &lt;code&gt;sentiment&lt;/code&gt;, positive or negative, carried by a tweet. We use two of the simplest but very effective classification algorithms&amp;hellip;&lt;/p&gt;
+&lt;p&gt;a) Logistic Regression&lt;br&gt;
+b) Naive Bayes&lt;/p&gt;
+&lt;p&gt;Broadly, the solution is divided into four parts…&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Preprocessing&lt;/li&gt;
+&lt;li&gt;Building and training Logistic Regression&lt;/li&gt;
+&lt;li&gt;Building and training Naive Bayes&lt;/li&gt;
+&lt;li&gt;Testing the trained models&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
     <item>
       <title>SVHN and Celebrity Face Generation using DC-GAN</title>
       <link>https://sssingh.github.io/DSPortfolio/project/svhn-and-celebrity-image-generation-dcgan/</link>
